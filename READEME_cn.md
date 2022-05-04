@@ -6,7 +6,7 @@
 
 ## 自己安装
 
-- 下载: [https://github.com/emperinter/Auto-Generate-Navigation/releases/download/WordPress/Auto-Generate-Navigation.zip](https://github.com/emperinter/Auto-Generate-Navigation/releases/download/WordPress/Auto-Generate-Navigation.zip)
+- 下载: [https://github.com/emperinter/auto-generate-navigation/releases](https://github.com/emperinter/auto-generate-navigation/releases)
 - 按图中指引安装即可
 
 ![图片](https://user-images.githubusercontent.com/20177836/166665366-08b68697-0c32-4131-a851-d27cef78175b.png)
