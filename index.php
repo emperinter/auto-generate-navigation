@@ -24,10 +24,10 @@ Author URI: https://www.emperinter.info
 
 
 function add_styles() {
-	wp_register_script('plugin_stylesheet_js', plugins_url('autoc.min.js', __FILE__));
 	wp_register_style('plugin_stylesheet_css', plugins_url('autoc.css', __FILE__));
-	wp_enqueue_script('plugin_stylesheet_js');
 	wp_enqueue_style('plugin_stylesheet_css');
+	wp_register_script('plugin_stylesheet_js', plugins_url('autoc.min.js', __FILE__));
+	wp_enqueue_script('plugin_stylesheet_js');
 }
 
 add_action( 'wp_enqueue_scripts', 'add_styles' );  
