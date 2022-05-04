@@ -4,8 +4,8 @@ Tags: Navigation
 Donate link: https://www.emperinter.info/wp-content/uploads/2020/09/1599052795-PayPal.webp
 Requires at least: 4.6
 Tested up to: 7.4
-Requires PHP: 7.4
-Stable tag: 1.0
+Requires PHP: 4.6
+Stable tag: 1.1
 License: GNU General Public License v2.0
 License URI: https://github.com/emperinter/Auto-Generate-Navigation/blob/master/LICENSE
 
@@ -31,6 +31,8 @@ You can find it here: https://github.com/emperinter/Auto-Generate-Navigation
 screenshot-1.png：样式截图
 
 == Changelog ==
+=== 1.1 ===
+fix load stylesheet
 === 1.0 ===
 initial
 

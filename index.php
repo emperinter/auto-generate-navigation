@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Auto Generate Navigation
- * @version 1.0
+ * @version 1.1
  * 
  *  From: https://github.com/yaohaixiao/autocjs
  *  License： MIT License 
@@ -13,24 +13,26 @@ Plugin Name: Auto Generate Navigation
 Plugin URI: https://github.com/emperinter/Auto-Generate-Navigation
 Description: A plugin which can generate a navigation catalogue on your WordPress post!（文章目录生成器！）
 Author: emperinter
-Version: 1.0
+Version: 1.1
 Author URI: https://www.emperinter.info
 */
-
-
-
-
-function get_file(){
-	echo '
-		<link rel="stylesheet" href="'.$url.'/wp-content/plugins/Auto Generate Navigation/autoc.css">
-		<script src="'.$url.'/wp-content/plugins/Auto Generate Navigation/autoc.min.js" async="async"></script>
-	';
-}
 
 //		CDN Resource Host
 //      https://yaohaixiao.github.io/autocjs/css/autoc.css
 //      https://cdn.jsdelivr.net/gh/yaohaixiao/autocjs@2.0.1/src/css/autoc.css
 //      https://cdn.jsdelivr.net/gh/yaohaixiao/autocjs/dist/autoc.min.js
+
+
+function add_styles() {
+	wp_register_script('plugin_stylesheet_js', plugins_url('autoc.min.js', __FILE__));
+	wp_register_style('plugin_stylesheet_css', plugins_url('autoc.css', __FILE__));
+	wp_enqueue_script('plugin_stylesheet_js');
+	wp_enqueue_style('plugin_stylesheet_css');
+}
+
+add_action( 'wp_enqueue_scripts', 'add_styles' );  
+
+
 function addJs(){
 	echo"
 		<script>
@@ -61,7 +63,6 @@ function addIDBeforeContent($content){
 }
 
 function add(){	
-	add_filter('wp_head', 'get_file');
 	add_filter('wp_footer', 'addJs');
 	add_filter('the_content', 'addIDBeforeContent');
 }
