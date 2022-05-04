@@ -10,7 +10,7 @@
 
 /*
 Plugin Name: Auto Generate Navigation 
-Plugin URI: https://www.emperinter.info
+Plugin URI: https://github.com/emperinter/Auto-Generate-Navigation
 Description: A plugin which can generate a navigation catalogue on your WordPress post!（文章目录生成器！）
 Author: emperinter
 Version: 1.0
