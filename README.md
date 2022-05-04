@@ -4,6 +4,19 @@
 
 A plugin which  can generate a navigation  catalogue on your WordPress post!
 
+# Install
+
+## Install By YourSelf
+
+- download: [https://github.com/emperinter/Auto-Generate-Navigation/releases/download/WordPress/Auto-Generate-Navigation.zip](https://github.com/emperinter/Auto-Generate-Navigation/releases/download/WordPress/Auto-Generate-Navigation.zip)
+- install as follow picture
+
+![图片](https://user-images.githubusercontent.com/20177836/166665366-08b68697-0c32-4131-a851-d27cef78175b.png)
+
+## Install in Market
+
+- Currently being submitted for processing
+
 
 # Special Thanks
 
