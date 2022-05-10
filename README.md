@@ -15,7 +15,10 @@ A plugin which  can generate a navigation  catalogue on your WordPress post!
 
 ## Install in Market
 
-- Currently being submitted for processing
+- You can search it by keywords `Auto Generate Navigation` in Market.
+
+
+![图片](https://user-images.githubusercontent.com/20177836/167537487-d7ba145a-30fb-4158-9d65-beda29df0e7a.png)
 
 
 # Special Thanks
