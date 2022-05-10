@@ -13,7 +13,10 @@
 
 ## 插件市场搜索安装
 
-- 目前正在提交处理中
+- 在市场中按关键字`Auto Generate Navigation`搜索安装即可。
+
+![图片](https://user-images.githubusercontent.com/20177836/167537904-29fddd3a-f0ad-4496-99ff-86afaf4bf8ed.png)
+
 
 # 特别感谢
 
