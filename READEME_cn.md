@@ -1,5 +1,8 @@
 [English](README.md) | [中文介绍](READEME_cn.md)
 
+![图片](https://user-images.githubusercontent.com/20177836/168429144-3a4d8660-5ec9-4570-b630-3958aafe6a5f.png)
+
+
 # 自动生成导航
 
 一个可以在你的WordPress文章上生成导航目录的插件!
