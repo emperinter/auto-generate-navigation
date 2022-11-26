@@ -16,7 +16,7 @@
 
 ## 插件市场搜索安装
 
-- 在市场中按关键字`Auto Generate Navigation`搜索安装即可。
+- 在市场中按关键字`Auto Generate Navigation`搜索安装即可,或者可以在[https://wordpress.org/plugins/auto-generate-navigation/](https://wordpress.org/plugins/auto-generate-navigation/)这里找到插件。
 
 ![图片](https://user-images.githubusercontent.com/20177836/167537904-29fddd3a-f0ad-4496-99ff-86afaf4bf8ed.png)
 
